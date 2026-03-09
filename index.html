@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>APEX Strategy — Marketing &amp; Consulting</title>
+  <meta name="description" content="APEX Strategy helps companies grow through clear strategy and effective marketing. From brand development to go-to-market planning and growth campaigns.">
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+
+  <!-- Styles -->
+  <link rel="stylesheet" href="css/variables.css">
+  <link rel="stylesheet" href="css/base.css">
+  <link rel="stylesheet" href="css/components.css">
+  <link rel="stylesheet" href="css/sections.css">
+  <link rel="stylesheet" href="css/animations.css">
+</head>
+<body>
+
+  <!-- Grain overlay -->
+  <div class="grain" aria-hidden="true"></div>
+
+  <!-- ═══════════════════════════════════════════
+       NAVIGATION
+       ═══════════════════════════════════════════ -->
+  <nav class="nav" id="nav">
+    <div class="nav__inner">
+      <a href="#" class="nav__logo">
+        <span class="nav__logo-mark">A</span>
+        APEX Strategy
+      </a>
+
+      <div class="nav__links">
+        <a href="#services" class="nav__link">Services</a>
+        <a href="#process" class="nav__link">Process</a>
+        <a href="#approach" class="nav__link">Approach</a>
+        <a href="#contact" class="nav__link">Contact</a>
+        <a href="#contact" class="nav__cta">Get Started</a>
+      </div>
+
+      <button class="nav__toggle" id="navToggle" aria-label="Toggle menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+
+    <div class="nav__mobile" id="navMobile">
+      <a href="#services">Services</a>
+      <a href="#process">Process</a>
+      <a href="#approach">Approach</a>
+      <a href="#contact">Contact</a>
+    </div>
+  </nav>
+
+
+  <!-- ═══════════════════════════════════════════
+       SECTION 1 — HERO
+       ═══════════════════════════════════════════ -->
+  <section class="hero" id="hero">
+    <!-- Background grid -->
+    <div class="hero__grid" aria-hidden="true">
+      <div class="hero__grid-inner"></div>
+    </div>
+
+    <!-- Ambient glow -->
+    <div class="hero__glow hero__glow--primary" aria-hidden="true"></div>
+    <div class="hero__glow hero__glow--secondary" aria-hidden="true"></div>
+
+    <div class="hero__content">
+      <div class="hero__badge">
+        <span class="badge">
+          <span class="badge__dot"></span>
+          Now accepting new partners
+        </span>
+      </div>
+
+      <h1 class="hero__title">
+        <span>Strategy that</span>
+        <span>drives growth.</span>
+      </h1>
+
+      <p class="hero__subtitle text-lg">
+        We help companies define their positioning, strengthen their brand, and reach the right audience — with strategies that lead to real results.
+      </p>
+
+      <div class="hero__actions">
+        <a href="#contact" class="btn btn--primary">Start a Project</a>
+        <a href="#services" class="btn btn--ghost">See Our Services</a>
+      </div>
+    </div>
+
+    <div class="hero__scroll-hint" aria-hidden="true">
+      <span>Scroll</span>
+      <svg width="16" height="16" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.5">
+        <path d="M8 3v10M4 9l4 4 4-4"/>
+      </svg>
+    </div>
+  </section>
+
+
+  <!-- ═══════════════════════════════════════════
+       SECTION 2 — SOCIAL PROOF (Logos)
+       ═══════════════════════════════════════════ -->
+  <section class="logos" data-reveal>
+    <div class="container">
+      <p class="logos__label text-xs text-tertiary">Trusted by ambitious teams across industries</p>
+      <div class="logos__grid">
+        <span class="logos__item">TechFlow</span>
+        <span class="logos__item">Meridian</span>
+        <span class="logos__item">Catalyst</span>
+        <span class="logos__item">NovaBridge</span>
+        <span class="logos__item">Vertex</span>
+        <span class="logos__item">Parallax</span>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- ═══════════════════════════════════════════
+       SECTION 3 — SERVICES
+       ═══════════════════════════════════════════ -->
+  <section class="services" id="services">
+    <div class="container">
+      <div class="services__header" data-reveal>
+        <p class="services__label text-xs text-accent">What We Do</p>
+        <h2 class="services__title">Built for every stage<br>of growth.</h2>
+        <p class="services__subtitle text-lg text-secondary">
+          From early-stage positioning to scaling campaigns, we deliver strategies that compound.
+        </p>
+      </div>
+
+      <div class="services__grid">
+        <!-- Card 1 -->
+        <div class="card" data-reveal data-reveal-delay="1">
+          <div class="card__icon">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"/>
+            </svg>
+          </div>
+          <h3 class="card__title">Brand Strategy</h3>
+          <p class="card__desc">Define your market position, craft a compelling narrative, and build a brand identity that resonates with your ideal audience.</p>
+        </div>
+
+        <!-- Card 2 -->
+        <div class="card" data-reveal data-reveal-delay="2">
+          <div class="card__icon">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M22 12h-4l-3 9L9 3l-3 9H2"/>
+            </svg>
+          </div>
+          <h3 class="card__title">Growth Marketing</h3>
+          <p class="card__desc">Data-driven campaigns across paid, organic, and content channels — designed to acquire customers efficiently and at scale.</p>
+        </div>
+
+        <!-- Card 3 -->
+        <div class="card" data-reveal data-reveal-delay="3">
+          <div class="card__icon">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+              <circle cx="12" cy="12" r="10"/><path d="M2 12h20M12 2a15.3 15.3 0 014 10 15.3 15.3 0 01-4 10 15.3 15.3 0 01-4-10 15.3 15.3 0 014-10z"/>
+            </svg>
+          </div>
+          <h3 class="card__title">Go-to-Market</h3>
+          <p class="card__desc">Launch with precision. We build GTM playbooks that align product, messaging, and distribution to capture market share fast.</p>
+        </div>
+
+        <!-- Card 4 -->
+        <div class="card" data-reveal data-reveal-delay="4">
+          <div class="card__icon">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M17 21v-2a4 4 0 00-4-4H5a4 4 0 00-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 00-3-3.87M16 3.13a4 4 0 010 7.75"/>
+            </svg>
+          </div>
+          <h3 class="card__title">Audience Development</h3>
+          <p class="card__desc">Identify, segment, and engage the right audience through community building, partnerships, and precision targeting.</p>
+        </div>
+
+        <!-- Card 5 -->
+        <div class="card" data-reveal data-reveal-delay="5">
+          <div class="card__icon">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+              <rect x="3" y="3" width="18" height="18" rx="2"/><path d="M3 9h18M9 21V9"/>
+            </svg>
+          </div>
+          <h3 class="card__title">Content & Creative</h3>
+          <p class="card__desc">Strategic content that builds authority and drives engagement — from thought leadership to high-converting landing pages.</p>
+        </div>
+
+        <!-- Card 6 -->
+        <div class="card" data-reveal data-reveal-delay="6">
+          <div class="card__icon">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M18 20V10M12 20V4M6 20v-6"/>
+            </svg>
+          </div>
+          <h3 class="card__title">Analytics & Insights</h3>
+          <p class="card__desc">Measure what matters. We set up dashboards, attribution models, and reporting that turn data into your competitive edge.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- ═══════════════════════════════════════════
+       SECTION 4 — PROCESS
+       ═══════════════════════════════════════════ -->
+  <section class="process" id="process">
+    <div class="container">
+      <div class="process__header" data-reveal>
+        <p class="process__label text-xs text-accent">How We Work</p>
+        <h2 class="process__title">Designed for clarity<br>and momentum.</h2>
+        <p class="process__subtitle text-lg text-secondary">
+          Our four-phase framework keeps every engagement focused and accountable.
+        </p>
+      </div>
+
+      <div class="process__steps">
+        <div class="process__step" data-reveal data-reveal-delay="1">
+          <div class="process__step-number">01</div>
+          <h3 class="process__step-title">Discover</h3>
+          <p class="process__step-desc">Deep audit of your market, competitors, and current positioning to uncover opportunities.</p>
+        </div>
+
+        <div class="process__step" data-reveal data-reveal-delay="2">
+          <div class="process__step-number">02</div>
+          <h3 class="process__step-title">Strategize</h3>
+          <p class="process__step-desc">Build a focused playbook with clear milestones, channels, and KPIs aligned to your goals.</p>
+        </div>
+
+        <div class="process__step" data-reveal data-reveal-delay="3">
+          <div class="process__step-number">03</div>
+          <h3 class="process__step-title">Execute</h3>
+          <p class="process__step-desc">Launch campaigns, build assets, and activate channels with precision and speed.</p>
+        </div>
+
+        <div class="process__step" data-reveal data-reveal-delay="4">
+          <div class="process__step-number">04</div>
+          <h3 class="process__step-title">Scale</h3>
+          <p class="process__step-desc">Optimize what works, cut what doesn't, and compound results over time.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- ═══════════════════════════════════════════
+       SECTION 5 — STRATEGIC APPROACH
+       ═══════════════════════════════════════════ -->
+  <section class="approach" id="approach">
+    <div class="container">
+      <div class="approach__header" data-reveal>
+        <p class="approach__label text-xs text-accent">Our Approach</p>
+        <h2 class="approach__title">Strategy isn't a document.<br>It's a system.</h2>
+        <p class="approach__subtitle text-lg text-secondary">
+          Most companies don't lack ideas — they lack alignment. We build the connective tissue between your brand, your market, and your growth levers.
+        </p>
+      </div>
+
+      <div class="approach__grid">
+        <!-- Pillar 1 -->
+        <div class="approach__pillar" data-reveal data-reveal-delay="1">
+          <div class="approach__pillar-num text-xs text-tertiary">01</div>
+          <h3 class="approach__pillar-title">Positioning That Cuts Through</h3>
+          <p class="approach__pillar-desc text-secondary">
+            We don't write taglines — we find the angle that makes your company impossible to ignore. Through competitive analysis, customer research, and market mapping, we identify the gap only you can fill and build your entire narrative around it.
+          </p>
+        </div>
+
+        <!-- Pillar 2 -->
+        <div class="approach__pillar" data-reveal data-reveal-delay="2">
+          <div class="approach__pillar-num text-xs text-tertiary">02</div>
+          <h3 class="approach__pillar-title">Channels That Compound</h3>
+          <p class="approach__pillar-desc text-secondary">
+            Every business has two or three channels that can drive disproportionate results. We find yours — whether it's content-led SEO, strategic partnerships, paid acquisition, or community — and build systems that compound instead of campaigns that expire.
+          </p>
+        </div>
+
+        <!-- Pillar 3 -->
+        <div class="approach__pillar" data-reveal data-reveal-delay="3">
+          <div class="approach__pillar-num text-xs text-tertiary">03</div>
+          <h3 class="approach__pillar-title">Execution With Accountability</h3>
+          <p class="approach__pillar-desc text-secondary">
+            Strategy without execution is a slide deck. We work alongside your team with clear milestones, weekly checkpoints, and transparent reporting. Every dollar spent ties back to a measurable outcome — no vanity metrics, no ambiguity.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- ═══════════════════════════════════════════
+       SECTION 6 — CTA + FOOTER
+       ═══════════════════════════════════════════ -->
+  <section class="cta" id="contact">
+    <div class="cta__glow" aria-hidden="true"></div>
+    <div class="container cta__content" data-reveal>
+      <h2 class="cta__title h2">Ready to build<br>something ambitious?</h2>
+      <p class="cta__subtitle text-lg text-secondary">
+        Let's talk about where you are and where you want to go. No pitch decks — just a real conversation.
+      </p>
+      <div class="cta__actions">
+        <a href="mailto:hello@apexstrategy.com" class="btn btn--primary">Get In Touch</a>
+        <a href="#services" class="btn btn--ghost">Explore Services</a>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="container">
+      <div class="footer__inner">
+        <a href="#" class="footer__logo">
+          <span class="footer__logo-mark">A</span>
+          APEX Strategy
+        </a>
+
+        <div class="footer__links">
+          <a href="#services" class="footer__link">Services</a>
+          <a href="#process" class="footer__link">Process</a>
+          <a href="#approach" class="footer__link">Approach</a>
+          <a href="#contact" class="footer__link">Contact</a>
+          <a href="https://linkedin.com" class="footer__link" target="_blank" rel="noopener">LinkedIn</a>
+          <a href="https://x.com" class="footer__link" target="_blank" rel="noopener">X / Twitter</a>
+        </div>
+      </div>
+
+      <p class="footer__copy">&copy; 2026 APEX Strategy. All rights reserved.</p>
+    </div>
+  </footer>
+
+
+  <!-- ── Scripts ── -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
+  <script src="js/app.js"></script>
+</body>
+</html>
